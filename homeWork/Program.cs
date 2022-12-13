@@ -7,22 +7,22 @@
 // 12821 -> да
 
 // 23432 -> да
-void Palindrome(int number)
-{
-    int a = number / 10000;
-    int b = number / 1000 % 10;
-    int c = number / 10 % 10;
-    nint d = number % 10;
-    if ((a == d) && (b == c))
-        Console.Write("это число  палиндромом");
-    else Console.Write(" это число не палиндромом");
-}
-Console.Write("введите пятизначное число :=");
-int number = Convert.ToInt32(Console.ReadLine());
-if (number > 1000)
-    Palindrome(number);
-else
-    Console.Write(" ошибка ,введите пятизначное число ");
+// void Palindrome(int number)
+// {
+//     int a = number / 10000;
+//     int b = number / 1000 % 10;
+//     int c = number / 10 % 10;
+//     nint d = number % 10;
+//     if ((a == d) && (b == c))
+//         Console.Write("это число  палиндромом");
+//     else Console.Write(" это число не палиндромом");
+// }
+// Console.Write("введите пятизначное число :=");
+// int number = Convert.ToInt32(Console.ReadLine());
+// if (number > 1000)
+//     Palindrome(number);
+// else
+//     Console.Write(" ошибка ,введите пятизначное число ");
 
 
 // Задача 21
